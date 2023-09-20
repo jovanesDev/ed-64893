@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "marca": "Iphone",
+      "modelo": "XR",
+      "memoria": 128,
+      "precio": 350000
+    },
+    {
+      "id": 2,
+      "marca": "Iphone",
+      "modelo": "11",
+      "memoria": 64,
+      "precio": 300000
+    },
+    {
+      "id": 3,
+      "marca": "Iphone",
+      "modelo": "14 pro",
+      "memoria": 128,
+      "precio": 450000
+    },
+    {
+      "marca": "Samsun",
+      "modelo": "Galaxy ",
+      "memoria": "64",
+      "precio": "125000",
+      "id": 4
+    },
+    {
+      "marca": "Moto",
+      "modelo": "G72",
+      "memoria": "256",
+      "precio": "250000",
+      "id": 5
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Redmi12 ",
+      "memoria": "128",
+      "precio": "300000",
+      "id": 6
+    }
+  ]
+}

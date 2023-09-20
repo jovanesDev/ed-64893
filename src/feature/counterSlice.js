@@ -4,6 +4,10 @@ const initialState = {
      count:0
 }
 
+// async await
+// const url = '...'
+// const resultado = await axios.get(url+'/')
+
 const counterSlice = createSlice({
   name: "counter",
   initialState,

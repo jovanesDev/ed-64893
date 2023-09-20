@@ -2,13 +2,34 @@
 
 import { useSelector,useDispatch } from "react-redux"
 import { incrementar,decrementar, reset, setDefaultValue } from "../feature/counterSlice"
+import { useEffect } from "react"
+import { axiosClient } from "../axios/axios.client"
 
 const Counter = () => {
 
    const { count } = useSelector((store) => store.counter )
    const dispatch = useDispatch()
    // generar el state 
-   // lograr para que el valor tome del input y del state 
+   // lograr para que el valor tome del input y del state ]
+
+   useEffect(() => {
+     
+    const getProducts = async () => {
+      try {
+        const result = await axiosClient.get("/productos")
+        console.log(result.data)
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    getProducts()
+   
+     return () => {
+       
+     }
+   }, [])
+   
+
 
   return (
     <div>
